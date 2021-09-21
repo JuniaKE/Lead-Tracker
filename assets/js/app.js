@@ -6,9 +6,7 @@ let leadCount = document.getElementById("lead-count");
 let errorEl = document.getElementById("error");
 let clearLeadsBtn = document.getElementById("clear-leads");
 let saveTabBtn = document.getElementById("save-tab");
-// const tabs = [
-//     { url: "https://linkedin.com/in/juniakeofficial" }
-// ];
+
 saveButton.addEventListener("click", () => {
     const lead = inputEl.value;
     if (lead.length === 0) {

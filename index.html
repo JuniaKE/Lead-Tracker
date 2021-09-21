@@ -10,21 +10,30 @@
 </head>
 
 <body>
-    <center>LEAD TRACKER</center>
-    <input type="text" name="input-el" id="input-el" class="form-control">
+    <center>
+        <img src="/assets/img/icon.png" alt="" height="30px"> <br>
+        <h5>LEAD TRACKER</h5>
+        <hr>
+    </center>
+    <input type="text" name="input-el" id="input-el" class="form-control" placeholder="Enter the Lead Link">
     <p class="error" id="error"></p>
     <div>
         <button class="btn btn-primary" id="save-button">SAVE</button>
+        <button class="btn btn-success" id="save-tab">SAVE CURRENT PAGE</button>
         <button class="btn btn-danger" id="clear-leads">Clear All Leads</button>
-        <button class="btn btn-success" id="save-tab">SAVE TAB</button>
     </div>
 
     <div class="list">
         <h3 class="title" id="lead-count"></h3>
         <ul class="list" id="lead"></ul>
     </div>
-
     <p id="alert"></p>
+    <div>
+        <hr>
+        <center>
+            <p>&copy; 2021 - Developed by <a href="https://www.facebook.com/EngKoechBrian" target="_blank">Brian Koech</a></p>
+        </center>
+    </div>
     <script src="assets/js/app.js"></script>
 </body>
 
