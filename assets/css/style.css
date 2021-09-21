@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    min-width: 400px;
+    border-color: royalblue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: green;
+    margin-bottom: 4px;
+}
+
+.btn {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+    color: white;
+    background-color: green;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: darkgrey;
+}
+
+.btn-success {
+    color: white;
+    background-color: greenyellow;
+}
+
+.btn-danger {
+    color: white;
+    background-color: red;
+}
+
+.btn-container {
+    display: block;
+    align-content: center;
+    /* align-self: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    color: green;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    color: green;
+    margin-top: 5px;
+}
+
+li a {
+    color: green;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
